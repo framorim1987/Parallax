@@ -1,5 +1,5 @@
 # Parallax 
- Uma página web inspirada no vídeo *Javascript Mousemove Parallax Glassmorphism* do canal (https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)[online tutorials] no YouTube.
+ Uma página web inspirada no vídeo *Javascript Mousemove Parallax Glassmorphism* do canal [online tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) no YouTube.
 
  Link para a página https://framorim1987.github.io/Parallax/
  
