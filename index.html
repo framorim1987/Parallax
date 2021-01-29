@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Parallax</title>
+</head>
+<body>
+    <section>
+        <div class="imgBX">
+            <h2 class="text">Porsche</h2>
+        </div>
+        <div class="box box1"></div>
+        <div class="box box2">
+            <h2 class="text">Porsche</h2>
+        </div>
+        <div class="credit">
+            <p>Credits for <a href="https://www.youtube.com/watch?v=-BexUIbuRp8">Online Tutorials on YouTube</a></p>
+            <p>Photo by Campbell on Unsplash</p>
+        </div>
+    </section>
+
+    <script>
+        const pos = document.documentElement;
+        pos.addEventListener('mousemove', e => {
+            pos.style.setProperty('--x', e.clientX + 'px');
+            pos.style.setProperty('--y', e.clientY + 'px');
+        });
+    </script>
+</body>
+</html>
