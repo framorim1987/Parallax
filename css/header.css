@@ -1,0 +1,46 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav a h1{
+    font-size: 2em;
+}
+
+header nav a h1 span{
+    color: orangered;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, .5);
+    transition: .3s;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+header nav ul li a:hover, .active {
+    background-color: orangered;
+}
