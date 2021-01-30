@@ -65,7 +65,7 @@ section .box.box2::before {
     z-index: 2;
 }
 
-h2 {
+.text {
     position: absolute;
     font-size: 10em;
     color: white;
@@ -85,4 +85,8 @@ h2 {
 
 .credit a, .credit p {
     color: #777;
+}
+
+.mobile-text {
+    display: none;
 }

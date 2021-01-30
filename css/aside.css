@@ -1,5 +1,6 @@
 aside {
     width: 5%;
+    min-width: 50px;
     height: 80vh;
     position: absolute;
     bottom: 0;
